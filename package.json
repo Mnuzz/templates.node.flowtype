@@ -1,0 +1,24 @@
+{
+  "name": "mnuzz-templates-node-flowtype",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "flow": "node_modules/.bin/flow",
+    "flow:check": "node_modules/.bin/flow check ./src/"
+  },
+  "dependencies": {
+    "@babel/register": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "flow-bin": "~0.93.0"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
